@@ -19,4 +19,8 @@ public interface ClientUserService {
      * @return the mono
      */
     Mono<Integer> add(ClientUser clientUser);
+
+
+    Mono<ClientUser> findById(String userId);
+
 }

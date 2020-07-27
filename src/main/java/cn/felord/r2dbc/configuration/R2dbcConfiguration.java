@@ -14,7 +14,7 @@ import io.r2dbc.spi.ConnectionFactory;
 public class R2dbcConfiguration {
 
     /**
-     * MySQL 连接工厂.
+     * MySQL 连接工厂 本DEMO不采用此方式.
      *
      * @return the connection factory
      */
