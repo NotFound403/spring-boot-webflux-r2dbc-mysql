@@ -1,0 +1,12 @@
+server:
+  port: 2222
+spring:
+  r2dbc:
+    pool:
+      enabled: true
+    url: r2dbcs:mysql://127.0.0.1:3306/bc_rec
+    username: root
+    password: 123456
+  application:
+    name: R2DBC
+
